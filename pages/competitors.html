@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block, Inc. - Competitors</title>
+    <link rel="stylesheet" href="../assets/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+            <div class="logo">
+                <a href="../index.html">Block Analysis</a>
+            </div>
+            <div class="nav-links">
+                <a href="overview.html">Overview</a>
+                <a href="thesis.html">Investment Thesis</a>
+                <a href="financials.html">Financials</a>
+                <a href="competitors.html">Competitors</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="page-content">
+        <h1>Competitor Analysis (Market Competition Overview)</h1>
+
+        <div class="competitor-table">
+            <h2>Competitive Comparison (Industry Metrics)</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Metric (Description)</th>
+                        <th>Block (SQ)</th>
+                        <th>PayPal (PYPL)</th>
+                        <th>Stripe (Private)</th>
+                        <th>Adyen (ADYEY)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Market Cap ($B) (Company Value)</td>
+                        <td>38.2 (Block Val)</td>
+                        <td>120.5 (PayPal Val)</td>
+                        <td>Private (Not Public)</td>
+                        <td>65.8 (Adyen Val)</td>
+                    </tr>
+                    <tr>
+                        <td>Revenue Growth (%) (YoY)</td>
+                        <td>23.8 (Block Growth)</td>
+                        <td>18.5 (PayPal Growth)</td>
+                        <td>N/A (Private)</td>
+                        <td>21.2 (Adyen Growth)</td>
+                    </tr>
+                    <tr>
+                        <td>Gross Margin (%) (Profitability)</td>
+                        <td>31.2 (Block Margin)</td>
+                        <td>45.6 (PayPal Margin)</td>
+                        <td>N/A (Private)</td>
+                        <td>38.4 (Adyen Margin)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="chart-container">
+            <h2>Market Share Comparison (Industry Position)</h2>
+            <canvas id="marketShareChart"></canvas>
+        </div>
+
+        <div class="chart-container">
+            <h2>Revenue Growth Comparison (Growth Trends)</h2>
+            <canvas id="growthChart"></canvas>
+        </div>
+    </div>
+
+    <script src="../assets/main.js"></script>
+</body>
+</html>
