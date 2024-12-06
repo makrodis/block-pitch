@@ -53,6 +53,11 @@ function initCharts() {
                     data: [25, 35, 20, 20], // (Market Share Percentages)
                     backgroundColor: ['#006AFF', '#22C55E', '#EAB308', '#94A3B8']
                 }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                aspectRatio: 2,
             }
         });
     }
@@ -116,6 +121,11 @@ function initCharts() {
                     data: [45, 35, 15, 5], // (Revenue Distribution)
                     backgroundColor: ['#006AFF', '#22C55E', '#EAB308', '#94A3B8']
                 }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                aspectRatio: 2,
             }
         });
     }
